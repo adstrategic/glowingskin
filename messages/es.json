@@ -1,0 +1,259 @@
+{
+  "Homepage": {
+    "Metadata": {
+      "title": "CIMA PRODUCE INC Wholesales Produce",
+      "description": "Somos una empresa líder en la importación de limón Tahití, con más de 8 años de experiencia en el mercado norteamericano."
+    },
+    "Hero": {
+      "title": "Venta al por mayor de",
+      "description": "Somos proveedores líderes de Limón Tahití y varios tipos de productos agrícolas frescos al por mayor. Más de 8 años de experiencia en el mercado norteamericano, calidad certificada.",
+      "cta": "Conoce más"
+    },
+    "MainProduct": {
+      "subtitle": "Venta al por mayor de Limon Tahiti",
+      "title": "Limones Tahiti",
+      "description": "De calidad superior, directos del campo a su almacén",
+      "specifications": {
+        "variety": {
+          "title": "Producto",
+          "description": "Limon Tahiti"
+        },
+        "weight": {
+          "title": "Tamaño/Cantidad",
+          "description": "Todos los tamaños disponibles y los pallets pueden ser de 60 o 70 cajas"
+        },
+        "package": {
+          "title": "Orden",
+          "description": "Compra de contenedor completo o por pallets"
+        },
+        "shipment": {
+          "title": "Envio",
+          "description": "En CIMA garantizamos frescura, entrega rápida y eficaz en cada envío, convirtiéndonos en su proveedor de limón Tahití de confianza."
+        }
+      },
+      "cta": "Contáctanos"
+    },
+    "Catalog": {
+      "subtitle": "Distribuidor mayorista de cítricos y hortalizas",
+      "title": "Nuestro Catalogo",
+      "description": "Como proveedores al por mayor de frutas y verduras complementamos nuestro Limón Tahití con un catálogo diverso de productos de temporada.",
+      "catalogImages": {
+        "carrots": {
+          "id": "carrots-image",
+          "url": "/assets/catalog/carrots.webp",
+          "alt": "Zanahorias"
+        },
+        "tahiti-lime": {
+          "id": "tahiti-lime-image",
+          "url": "/assets/catalog/lime.webp",
+          "alt": "Limon Tahiti"
+        },
+        "oranges": {
+          "id": "oranges-image",
+          "url": "/assets/catalog/orange.webp",
+          "alt": "Naranjas"
+        },
+        "tangerines": {
+          "id": "tangerine-image",
+          "url": "/assets/catalog/tangarine.webp",
+          "alt": "Mandarinas"
+        },
+        "plantains": {
+          "id": "plantains-image",
+          "url": "/assets/catalog/plantain.webp",
+          "alt": "Platanos"
+        },
+        "onions": {
+          "id": "onions-image",
+          "url": "/assets/catalog/onions.webp",
+          "alt": "Cebollas"
+        }
+      },
+      "tempcta": "De temporada",
+      "allyear": "Todo el año",
+      "techsheet": "Ficha Tecnica",
+      "cta": "Cotizar"
+    },
+    "Experience": {
+      "title": "Nuestra Experiencia",
+      "cta": "Sobre Nosotros",
+      "experienceYears": "Años de experiencia",
+      "clientsSatisfied": "Clientes satisfechos",
+      "productionLength": "Hectáreas de producción",
+      "countriesDelivering": "Países productores (Col, Mex)"
+    },
+    "Journey": {
+      "title": "Nosotros",
+      "description": "con más de 8 años de experiencia en la importación y distribución de limón Tahití y productos agrícolas, nos comprometemos a ofrecer a nuestros clientes productos frescos, sostenibles y competitivos.",
+      "aboutPablo": {
+        "trigger": "Ver mas",
+        "title": "Mi trayectoria",
+        "description": "Pablo Alzate - Presidente",
+        "text": {
+          "1": "Soy Pablo Alzate, Presidente de CIMA PRODUCE INC. Mi trayectoria en el mundo del produce comenzó hace 15 años en la marqueta de Colombia, donde adquirí conocimientos sobre la compra, venta y manejo de productos, especialmente cítricos.",
+          "2": "Hace aproximadamente diez años me mudé a Estados Unidos y encontré la oportunidad de trabajar en la marqueta de Miami a través de un negocio familiar. Comencé desde cero, como carretillero en la plaza, pero esta experiencia me permitió conocer a fondo los productos y el funcionamiento del mercado en EE. UU.",
+          "3": "Con el tiempo, incursioné en el sector de ventas minoritarias y en la atención directa a clientes de cítricos, lo que me brindó un conocimiento integral de toda la cadena del produce: desde la cosecha en los campos hasta su distribución óptima a los clientes. Fue entonces cuando nació CIMA PRODUCE INC."
+        },
+        "close": "Cerrar"
+      }
+    },
+    "Certificates": {
+      "title": "Certificaciones que nos respaldan",
+      "description": "Nuestra trayectoria garantiza un servicio confiable y una cadena de suministro eficiente satisfaciendo las necesidades del mercado mayorista.",
+      "principles": {
+        "experience": {
+          "title": "Experiencia",
+          "description": "Contamos con más de 8 años de experiencia comercializando productos agricolas y construyendo relaciones comerciales solidas en toda america del norte."
+        },
+        "commitment": {
+          "title": "Compromiso",
+          "description": "Nuestro compromiso es ser el puente entre productores agrícolas de América Latina y mercados mayoristas en Norte America ofreciendo calidad con los más altos estandares."
+        },
+        "quality": {
+          "title": "Maxima Calidad",
+          "description": "La excelencia por envío está garantizada y certificada. Contamos con un equipo dedicado a asegurar la calidad de el envio de los productos agricolas"
+        },
+        "prices": {
+          "title": "Mejores Precios",
+          "description": "CIMA ofrece productos al por mayor altamente competitivos, ofreciendo alta calidad y eficiencia de envío."
+        }
+      }
+    },
+    "Map": {
+      "subtitle": "CIMA venta al por mayor",
+      "title": "Llevando calidad a toda América del Norte",
+      "description": "Con ubicaciones estratégicas en EE.UU. y Canadá, aseguramos un suministro de productos frescos y de la más alta calidad, conviértanos en su distribuidor de frutas y verduras ideal.",
+      "marketCountries": {
+        "title": "Principales países donde comercializamos:",
+        "countries": {
+          "canada": "Canadá",
+          "usa": "Estados Unidos"
+        }
+      },
+      "companyLocation": {
+        "title": "Ubicacion de la empresa:",
+        "location": "Florida, Estados Unidos"
+      },
+      "cta": "Contáctanos"
+    },
+    "Contact": {
+      "title": "Solicite su cotización peronalizada",
+      "description": "Contáctenos y descubra los precios al por mayor más competitivos",
+      "phoneLabel": "Telefono",
+      "addressLabel": "Direccion"
+    },
+    "FAQs": {
+      "title": "Preguntas frecuentes",
+      "description": "No olvide contactarnos para ofrecerle más informacion y resolver cualquier duda que tenga.",
+      "questions": {
+        "question1": {
+          "question": "¿De dónde importan los productos?",
+          "answer": "Importamos limones Tahití principalmente de Colombia y México. Además, ofrecemos otros productos de temporada provenientes de diferentes regiones."
+        },
+        "question2": {
+          "question": "¿Qué tipo de productos ofrecen además de limones?",
+          "answer": "Además de limones Tahití, trabajamos con una variedad de productos de temporada, como plátano, zanahoria, naranja, sandía y otros frutos y vegetales frescos. Nuestra oferta varía según la temporada y disponibilidad."
+        },
+        "question3": {
+          "question": "¿Cómo manejan el transporte y la logística?",
+          "answer": "Contamos con una red logística eficiente y confiable que garantiza que los productos lleguen frescos y en las mejores condiciones."
+        }
+      }
+    }
+  },
+  "Form": {
+    "nameLabel": "Nombre",
+    "mailLabel": "E-mail",
+    "phoneLabel": "Telefono",
+    "messageLabel": "Mensaje",
+    "cta": "Enviar Mensaje"
+  },
+  "LatestNews": {
+    "title": "Ultimas noticias",
+    "description": "Manténgase actualizado con las noticias más recientes de nuestra empresa.",
+    "cta": "Mostrar Mas"
+  },
+  "Footer": {
+    "socialMediaLabel": "Conéctate con nosotros en las redes sociales:",
+    "description": "Proveedor mayorista de limón Tahití y productos agrícolas frescos en América del Norte. Contáctenos para obtener una cotización personalizada.",
+    "productsLinks": {
+      "title": "Productos",
+      "lime": "Limon Tahiti",
+      "carrot": "Zanahoria",
+      "onion": "Cebollas",
+      "plantain": "Platano"
+    },
+    "fastLinks": {
+      "title": "Links Rapidos",
+      "blog": { "label": "Blog", "url": "/blog" },
+      "journey": { "label": "Nuestra trayectoria", "url": "/#about-us" },
+      "contact": { "label": "Contáctanos", "url": "/#contact" },
+      "catalog": { "label": "Catalogo", "url": "/#catalog" },
+      "certificates": { "label": "Certificados", "url": "/#certificates" }
+    },
+    "contactLabel": "Contacto"
+  },
+  "HeaderLinks": {
+    "cta": "Contáctanos",
+    "home": { "label": "Inicio", "url": "/" },
+    "blog": { "label": "Blog", "url": "/blog" },
+    "catalog": { "label": "Catalogo", "url": "/#catalog" },
+    "aboutUs": { "label": "Trayectoria", "url": "/#about-us" },
+    "certificates": { "label": "Certificaciones", "url": "/#certificates" }
+  },
+  "Blog": {
+    "Metadata": {
+      "title": "El blog de CIMA PRODUCE INC",
+      "description": "Explore nuestras publicaciones recientes sobre nuestro limon Tahití, catalogo, ofertas y más."
+    },
+    "title": "Bienvenido a <highlight>CIMA</highlight>",
+    "description": "Descubra nuestra información más actualizada sobre nuestra compañia.",
+    "postsSectionTitle": "Últimas noticias y ofertas",
+    "postsSectionDescription": "Explore nuestras publicaciones recientes sobre nuestro limon Tahití, catalogo, ofertas y más.",
+    "ctaTitle": "Mantente conectado con CIMA",
+    "ctaDescription": "¡Únete a nuestra comunidad para obtener las últimas actualizaciones sobre los precios y ofertas exclusivas!",
+    "contactCta": "Contáctanos",
+    "followCta": "Siguenos",
+    "FAQs": {
+      "title": "Preguntas frecuentes",
+      "description": "No olvides contactarnos para ofrecerte más informacion y resolver cualquier duda que tengas.",
+      "questions": {
+        "question1": {
+          "question": "What courses do you offer?",
+          "answer": "We offer a variety of courses across subjects like programming, data science, design, and business management."
+        },
+        "question2": {
+          "question": "How long do the courses take?",
+          "answer": "Course duration varies; some are completed in a few hours while others may take several weeks, depending on the depth of the content."
+        },
+        "question3": {
+          "question": "Are the courses self-paced?",
+          "answer": "Yes, our courses are self-paced, allowing you to learn at your own speed and convenience."
+        },
+        "question4": {
+          "question": "Do I receive a certificate upon completion?",
+          "answer": "Yes, upon completing a course, you will receive a certificate that you can download and share."
+        },
+        "question5": {
+          "question": "Is there a money-back guarantee?",
+          "answer": "Absolutely! If you are not satisfied with a course, you can request a full refund within 30 of purchase."
+        },
+        "question6": {
+          "question": "Can I access the courses on mobile devices?",
+          "answer": "Yes, our platform is mobile-friendly, allowing you to access courses on smartphones and."
+        }
+      }
+    }
+  },
+  "BlogPost": {
+    "lastUpdate": "Última actualización: ",
+    "tableOfContentsMobile": "EN ESTA PÁGINA",
+    "tableOfContents": "Tabla de contenidos",
+    "shareBtn": "Compartir"
+  },
+  "ThankYouPage": {
+    "message": "Correo electrónico enviado con éxito",
+    "appreciation": "Gracias por enviar nuestro formulario",
+    "goodbye": "Lo contactaremos lo antes posible⚡."
+  }
+}
