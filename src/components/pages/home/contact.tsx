@@ -392,7 +392,7 @@ const Contact = () => {
               </button>
 
               {isSubmitted && (
-                // <div className="absolute inset-0 bg-[#E9E6DD] z-20  ">
+                // <div className="absolute inset-0 bg-[#e6c6c6] z-20  ">
                 <div className="rounded-lg p-6 pl-0 text-left">
                   <div className="text-green-600 text-base mb-2">
                     Thank you for your appointment request! We will contact you
