@@ -1,13 +1,13 @@
 import React from "react";
 import rightArrow from "@/assets/images/right-arrow.png";
-import heroImg from "@/assets/images/hero-image.png";
+// import heroImg from "@/assets/images/hero-image.png";
 import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
   return (
     <section
-      className="bg-[url('../images/hero-bg.png')] bg-no-repeat bg-cover bg-center pb-0 pt-12 md:pt-70px lg:pt-[80px] xl:pt-[100px]"
+      className="bg-no-repeat bg-cover bg-center pb-0 pt-12 md:pt-70px lg:pt-[80px] xl:pt-[100px]"
       id="d2c_hero"
     >
       <div className="container relative h-full md:h-[470px] lg:h-[75vh] xl:h-[700px] 2xl:h-[800px] space-y-3 md:space-y-0 flex flex-col justify-between">
@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="md:absolute right-0 bottom-0 w-full md:w-[350px] lg:w-[450px] xl:w-[500px] 2xl:w-[580px]">
-          <Image src={heroImg} className="w-full h-full" alt="Hero Image" />
+          {/* <Image src={heroImg} className="w-full h-full" alt="Hero Image" /> */}
         </div>
       </div>
     </section>

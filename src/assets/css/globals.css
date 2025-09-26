@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --breakpoint-*: initial;
@@ -22,20 +22,21 @@
   --text-9xl: 120px;
 
   --color-primary: #2d2c2c;
-  --color-secondary: #a99d83;
+  --color-secondary: #806876;
   --color-soft-beige: #f0ebd5;
   --color-Light-beige: #757575;
 
-  --background-image-upper-gradient: linear-gradient(90deg,
-      rgba(45, 44, 44, -20%) 0%,
-      #2d2c2c 100%);
+  --background-image-upper-gradient: linear-gradient(
+    90deg,
+    rgba(45, 44, 44, -20%) 0%,
+    #2d2c2c 100%
+  );
 
   --animate-move-down: moveDown 1.5s infinite ease-in-out;
   --animate-move-up: moveUp 1.5s infinite ease-in-out;
   --animate-move-y: moveY 1.5s infinite ease-in-out;
 
   @keyframes moveDown {
-
     0%,
     100% {
       transform: translate(0, 0);
@@ -47,7 +48,6 @@
   }
 
   @keyframes moveUp {
-
     0%,
     100% {
       transform: translate(0, 0);
@@ -59,7 +59,6 @@
   }
 
   @keyframes moveY {
-
     0%,
     100% {
       transform: translateY(0);
@@ -85,7 +84,6 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-
   *,
   ::after,
   ::before,
@@ -125,7 +123,7 @@
 
 @utility d2c_secondary_btn {
   /* Secondary button */
-  @apply bg-secondary before:bg-[#8E826A];
+  @apply bg-secondary before:bg-[#2323237b];
 }
 
 @utility form-control {
@@ -256,10 +254,9 @@
 }
 
 @utility hidden {
-
   /* When hidden, move it off-screen and fade out */
   &#mobile-menu {
-    @apply h-0 visible bg-[#E9E6DD];
+    @apply h-0 visible bg-[#e6c6c6];
   }
 }
 
@@ -277,7 +274,6 @@
 }
 
 @utility d2c_testimonial_slider {
-
   /* testimonial section */
   & .swiper-pagination-bullet {
     @apply !bg-transparent !w-3 !h-3 !opacity-100 !border !border-primary !rounded-none;
@@ -289,7 +285,6 @@
 }
 
 @utility swiper-pagination-bullet {
-
   /* testimonial section */
   .d2c_testimonial_slider & {
     @apply !bg-transparent !w-3 !h-3 !opacity-100 !border !border-primary !rounded-none;
@@ -304,7 +299,7 @@
 
 @utility preloader {
   /* Preloader */
-  @apply fixed bottom-0 top-0 w-full z-50 bg-[#E9E6DD] transition duration-300 flex items-center justify-center;
+  @apply fixed bottom-0 top-0 w-full z-50 bg-[#e6c6c6] transition duration-300 flex items-center justify-center;
 }
 
 @utility custom-loader {
@@ -335,7 +330,7 @@
 
 @layer base {
   body {
-    @apply overflow-x-hidden relative bg-[#e9e6dd];
+    @apply overflow-x-hidden relative bg-[#e6c6c6];
   }
 
   html {
@@ -401,7 +396,6 @@
 }
 
 @layer components {
-
   /* nav css */
   #navbar {
     @apply z-40;
@@ -421,10 +415,9 @@
 }
 
 @layer utilities {
-
   @keyframes continuous {
     100% {
-      left: calc(100% + 20px)
+      left: calc(100% + 20px);
     }
   }
 }

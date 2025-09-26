@@ -5,7 +5,7 @@ import dotSmall from "@/assets/images/dot-small.png";
 import dotBigger from "@/assets/images/dot-bigger.png";
 import girlsWithFlower from "@/assets/images/girls-with-flower.jpg";
 import girlsLeftView from "@/assets/images/girls-left-view.jpg";
-import darkRightArrow from "@/assets/images/dark-right-arrow.png";
+import rightArrow from "@/assets/images/right-arrow.png";
 
 const Cta2 = () => {
   return (
@@ -28,17 +28,9 @@ const Cta2 = () => {
             individual needs with beauty products in an innovative way with
             precision that inspires confidence.
           </p>
-          <Link
-            href="#d2c_contact"
-            className="d2c_btn d2c_secondary_btn text-primary"
-          >
+          <Link href="#d2c_contact" className="d2c_btn d2c_secondary_btn ">
             Contact with Us
-            <Image
-              src={darkRightArrow}
-              alt="Dark Right Arrow"
-              width={24}
-              height={24}
-            />
+            <Image src={rightArrow} alt="Right Arrow" width={24} height={24} />
           </Link>
         </div>
 

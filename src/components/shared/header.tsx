@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import brushImg from "@/assets/images/brush.png";
-import logoImg from "@/assets/images/logo/logo.png";
+import logoImg from "@/assets/images/glowingskingbbicon.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const navItems = [
