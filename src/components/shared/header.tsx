@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import brushImg from "@/assets/images/brush.png";
+import stb from "@/assets/images/stb - copia.png";
 import logoImg from "@/assets/images/glowingskingbbicon.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -56,14 +56,15 @@ const Header = () => {
       observer.observe(section);
     });
 
-    // Sticky navbar background color change
+    // Sticky navbar gradient on scroll
+    const navbar = document.getElementById("navbar");
+
     const handleScroll = () => {
-      const navbar = document.getElementById("navbar");
       if (navbar) {
         if (window.scrollY > 0) {
-          navbar.style.backgroundColor = "#125b85";
+          navbar.classList.add("animated-gradient");
         } else {
-          navbar.style.backgroundColor = "transparent";
+          navbar.classList.remove("animated-gradient");
         }
       }
     };
@@ -83,20 +84,26 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 w-full border border-b-primary" id="navbar">
+    <header
+      className="sticky top-0 w-full border border-b-primary transition-colors duration-500"
+      id="navbar"
+    >
       <nav className="d2c_navbar">
         <div className="mr-auto flex justify-between items-center gap-3 lg:gap-6">
           <div className="flex items-center justify-between gap-4 flex-wrap w-full container">
+            {/* Logo */}
             <div className="mr-20">
               <Link href="#d2c_hero" id="home-link">
                 <Image
                   src={logoImg}
                   className="max-w-[180px] md:max-w-[202px] w-auto h-auto"
                   alt="PureGlamy logo"
+                  priority
                 />
               </Link>
             </div>
 
+            {/* Desktop Nav */}
             <div
               className="hidden space-x-4 d2c_navigation mx-auto"
               id="d2c_nav_link_wrapper"
@@ -116,6 +123,7 @@ const Header = () => {
               </div>
             </div>
 
+            {/* Mobile Menu Button */}
             <div className="flex items-center">
               <button
                 id="mobile-menu-btn"
@@ -129,21 +137,24 @@ const Header = () => {
         </div>
       </nav>
 
+      {/* Mobile Menu */}
       <div
         id="mobile-menu"
-        className={`bg-[#e6c6c6] absolute right-0 left-0 -z-10 ${
-          isMobileMenuOpen ? "h-full min-h-screen" : ""
+        className={`bg-[#e6c6c6] absolute right-0 left-0 -z-10 transition-all duration-500 ${
+          isMobileMenuOpen
+            ? "h-full min-h-screen"
+            : "h-0 min-h-0 overflow-hidden"
         }`}
       >
         <div className="block p-6 pt-0 md:pt-10 w-full">
           <div
             id="mobile-nav-links"
-            className="mt-2 grid grid-cols-1 gap-1 gap-x-4"
+            className="mt-2 grid grid-cols-1 gap-1 gap-x-4 "
           >
             <Image
-              src={brushImg}
-              className="hidden md:block absolute md:left-[10%] lg:left-[30%] 2xl:left-[35%] transform md:translate-x-[10%] lg:-translate-x-[30%] 2xl:-translate-x-[35%] h-auto w-auto"
-              alt="Brush"
+              src={stb}
+              className="hidden md:block absolute md:left-[8%] lg:left-[25%] 2xl:left-[30%] transform md:translate-x-[15%] lg:-translate-x-[25%] 2xl:-translate-x-[30%] md:translate-y-[60%] scale-x-[-1] h-max w-auto opacity-50"
+              alt="logo"
               width={200}
               height={100}
             />

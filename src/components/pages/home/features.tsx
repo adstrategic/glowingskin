@@ -21,7 +21,7 @@ const featuresData = [
   {
     image: featureImg3.src,
     title: "Laser",
-    description: "Depilación láser",
+    description: "laser hair removal",
     gridClass:
       "col-span-12 md:col-start-4 md:col-span-6 lg:col-start-9 lg:col-span-4",
   },

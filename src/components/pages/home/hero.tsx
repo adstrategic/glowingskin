@@ -7,8 +7,14 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section
-      className="bg-no-repeat bg-cover bg-center pb-0 pt-12 md:pt-70px lg:pt-[80px] xl:pt-[100px]"
       id="d2c_hero"
+      className="bg-no-repeat bg-cover bg-center pb-0 pt-12 md:pt-70px lg:pt-[80px] xl:pt-[100px]
+                 animate-gradient-x"
+      style={{
+        backgroundImage:
+          "linear-gradient(to right, #806876, #bd94ac, #bd94ac, #e6c6c6, #e6c6c6, #b2a1a1)",
+        backgroundSize: "400% 400%", // 👈 importante para el movimiento
+      }}
     >
       <div className="container relative h-full md:h-[470px] lg:h-[75vh] xl:h-[700px] 2xl:h-[800px] space-y-3 md:space-y-0 flex flex-col justify-between">
         <h1 className="d2c_title text-5xl md:text-6xl lg:text-[84px] xl:text-[100px] 2xl:text-[117px] font-semibold leading-none text-center md:text-left">
@@ -36,12 +42,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-/* 
-    Template Name: PureGlamy - Beauty Salon Next.js Template for Modern Salons
-    Template URL: https://designtocodes.com/product/pureglamy-beauty-salon-next-js-template-for-modern-salons
-    Description: Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!
-    Author: DesignToCodes
-    Author URL: https://designtocodes.com
-    Text Domain: PureGlamy | Next.js | Portfolio Template
-*/
