@@ -5,7 +5,8 @@ import Header from "@/components/shared/header";
 import Footer from "@/components/shared/footer";
 import "aos/dist/aos.css";
 import AOSInit from "@/components/shared/aos-init";
-import favIcon from "@/assets/images/logo/favicon.png"
+import favIcon from "@/assets/images/logo/favicon.png";
+import WhatsappButton from "@/components/shared/whatsapp-button";
 
 const cormorantInfant = Cormorant_Infant({
   subsets: ["latin"],
@@ -24,11 +25,12 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   robots: "noindex, nofollow",
   icons: {
-    icon: favIcon.src
+    icon: favIcon.src,
   },
   openGraph: {
     title: "PureGlamy - Beauty Salon Next.js Template for Modern Salons",
-    description: "Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!",
+    description:
+      "Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!",
     images: [
       {
         url: "https://designtocodes.com/wp-content/uploads/2025/04/PureGlamy-Beauty-Salon-Next.js-Template-for-Modern-Salons.jpg",
@@ -36,7 +38,8 @@ export const metadata: Metadata = {
     ],
   },
   title: "PureGlamy - Beauty Salon Next.js Template for Modern Salons",
-  description: "Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!"
+  description:
+    "Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!",
 };
 
 export default function RootLayout({
@@ -54,6 +57,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <WhatsappButton />
       </body>
     </html>
   );
