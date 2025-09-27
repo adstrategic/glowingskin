@@ -16,21 +16,27 @@ const testimonialData = [
     profession: "Artist",
     name: "Maria Davis",
     testimonial:
-      "After a long workday, I treated myself to a rejuvenating session at Glowing Skin Beauty Bar. Angie's care and expertise are unmatched!",
+      "Angie is amazing at what she does! She takes the time to really look at your skin and talk through what it needs. Not only is the facial itself relaxing, but Angie also gives great suggestions. Highly recommend her!",
   },
   {
     image: client2,
     profession: "Artist",
     name: "Luna park",
     testimonial:
-      "The microneedling with PRP changed my skin completely — smoother, firmer, and glowing. Highly recommend Angie!",
+      "It was a pleasure getting a hydrafacial with Angie. She is so nice and great to talk to. My skin is clean, hydrated, and glowing!",
   },
   {
     image: client1,
     profession: "Artist",
     name: "Maria Davis",
+    testimonial: "Angie's amazing! I got a hydra facial & my skin is glowing.",
+  },
+  {
+    image: client2,
+    profession: "Artist",
+    name: "Maria Davis",
     testimonial:
-      "Best laser hair removal in Miami. Comfortable, fast, and truly effective.",
+      "Angelica is very professional, knowledgeable and patient. She explains every procedure very thoroughly. I'm very happy with my treatment and results.",
   },
 ];
 

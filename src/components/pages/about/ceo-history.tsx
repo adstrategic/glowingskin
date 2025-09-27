@@ -5,10 +5,7 @@ import flowerRight from "@/assets/images/flower-right.png";
 
 const CeoHistory = () => {
   return (
-    <section
-      className="py-20 md:py-28 lg:py-32 bg-soft-beige"
-      id="d2c_ceo_history"
-    >
+    <section className="py-20 md:py-28 lg:py-32 " id="d2c_ceo_history">
       <div className="container">
         <div className="grid grid-cols-12 gap-4 md:gap-10 lg:gap-6">
           <div className="space-y-4 xl:space-y-10 col-start-1 col-span-12 md:col-span-6 lg:col-span-5">
@@ -35,9 +32,9 @@ const CeoHistory = () => {
             </p>
             <div className="bg-primary p-6 text-white">
               <blockquote className="text-lg italic">
-                "Beauty is about feeling confident in your own skin. My mission
-                is to help every client discover their natural radiance and feel
-                their absolute best."
+                &ldquo;Beauty is about feeling confident in your own skin. My
+                mission is to help every client discover their natural radiance
+                and feel their absolute best.&rdquo;
               </blockquote>
               <cite className="block mt-4 text-secondary font-semibold">
                 - Angie Rodriguez, Founder & CEO
