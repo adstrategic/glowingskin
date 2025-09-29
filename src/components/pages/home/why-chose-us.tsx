@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
       <div className="container">
         <div className="d2c_header">
           <h3 className="d2c_subtitle">Experience Luxury & Care</h3>
-          <h2 className="d2c_title">Why Choose PureGlamy</h2>
+          <h2 className="d2c_title">Why Choose Glowing Skin Beauty Bar</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 md:gap-10 lg:gap-20 xl:gap-40">

@@ -90,7 +90,8 @@ const ServiceList = ({
 
 const Pricing = () => {
   return (
-    <section className="border border-y-primary" id="d2c_pricing">
+    // <section className="border border-y-primary" id="d2c_pricing">
+    <section className="" id="d2c_pricing">
       <div className="container">
         <div className="d2c_header">
           <h3 className="d2c_subtitle">See Our</h3>
