@@ -96,7 +96,7 @@ const Header = () => {
               <Link href="#d2c_hero" id="home-link">
                 <Image
                   src={logoImg}
-                  className="max-w-[180px] md:max-w-[202px] w-auto h-auto"
+                  className="max-w-[150px] md:max-w-[202px] w-auto h-auto"
                   alt="PureGlamy logo"
                   priority
                 />

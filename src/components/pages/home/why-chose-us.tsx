@@ -30,7 +30,7 @@ const whyChooseData = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="lg:bg-[url('../images/flower-left.png'),_url('../images/flower-right.png')] bg-no-repeat bg-[position:0px_100%,100%_4%]">
+    <section className="lg:bg-[url('../images/star-izq.png'),_url('../images/star-der.png')] bg-no-repeat bg-[position:0px_100%,100%_4%]">
       <div className="container">
         <div className="d2c_header">
           <h3 className="d2c_subtitle">Experience Luxury & Care</h3>

@@ -38,7 +38,7 @@ const portfolioData = [
 const Portfolio = () => {
   return (
     <section
-      className="bg-[url('../images/flower-left.png'),_url('../images/flower-right.png')] bg-no-repeat bg-[position:0px_100%,100%_4%]"
+      className="bg-[url('../images/star-izq.png'),_url('../images/star-der.png')] bg-no-repeat bg-[position:0px_100%,100%_4%]"
       id="d2c_portfolio"
     >
       <div className="container">

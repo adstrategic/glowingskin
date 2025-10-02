@@ -60,7 +60,7 @@ const Testimonial = () => {
 
   return (
     <section
-      className="bg-[url('../images/flower-right.png')] bg-no-repeat bg-[position:100%_15%]"
+      className="bg-[url('../images/star-der.png')] bg-no-repeat bg-[position:100%_15%]"
       id="d2c_testimonial"
     >
       <div className="container">

@@ -23,7 +23,7 @@ const Footer = () => {
               <Link href="./index.html">
                 <Image
                   src={footerLogo}
-                  className="mx-auto max-w-[305px] inline-block"
+                  className="mx-auto max-w-[290px] inline-block"
                   alt="Footer Logo"
                 />
               </Link>

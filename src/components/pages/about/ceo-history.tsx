@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ceoImage from "@/assets/images/Team-01.jpg";
-import flowerRight from "@/assets/images/flower-right.png";
+import ceoImage from "@/assets/images/about.jpg";
 
 const CeoHistory = () => {
   return (
@@ -43,7 +42,7 @@ const CeoHistory = () => {
           </div>
 
           <div className="col-start-1 md:col-start-7 lg:col-start-8 col-span-12 md:col-span-6 lg:col-span-7 gap-6 relative">
-            <div className="w-full lg:w-10/12 xl:w-9/12 mx-auto relative">
+            <div className="w-full lg:w-10/12 xl:w-full mx-auto relative">
               <Image
                 src={ceoImage}
                 className="h-[400px] lg:h-[500px] xl:h-[630px] w-full object-cover"
@@ -52,20 +51,20 @@ const CeoHistory = () => {
                 height={630}
                 priority
               />
-              <h2 className="d2c_title text-4xl lg:text-5xl xl:text-9xl absolute -bottom-0 left-0 leading-none text-black bg-gradient-to-b from-transparent to-[#f0ebd5]">
+              <h2 className="d2c_title text-4xl lg:text-5xl xl:text-9xl absolute -bottom-0 left-0 right-0 leading-none text-black bg-gradient-to-b from-transparent to-[#e6c6c6]">
                 Angie
               </h2>
-              <h2 className="absolute left-5 md:left-auto lg:right-[-308px] bottom-[90%] lg:bottom-[217px] flex flex-row flex-nowrap items-center justify-center gap-2 p-0 lg:w-[510px] h-min overflow-visible z-0 transform lg:rotate-[90deg] text-3xl lg:text-5xl xl:text-6xl no-animation md:right-5">
+              {/* <h2 className="absolute left-5 md:left-auto lg:right-[-308px] bottom-[90%] lg:bottom-[50px] flex flex-row flex-nowrap items-center justify-center gap-2 p-0 lg:w-[510px] h-full overflow-visible z-0 transform lg:rotate-[90deg] text-3xl lg:text-5xl xl:text-6xl no-animation md:right-5">
                 Licensed Aesthetician & Visionary
-              </h2>
+              </h2> */}
             </div>
-            <Image
+            {/* <Image
               src={flowerRight}
               className="absolute -top-10 -z-10 w-auto h-auto right-0"
               alt="Flower Image"
               width={1000}
               height={1000}
-            />
+            /> */}
           </div>
         </div>
       </div>

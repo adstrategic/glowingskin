@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 import AOSInit from "@/components/shared/aos-init";
 import favIcon from "@/assets/images/logo/favicon.png";
 import WhatsappButton from "@/components/shared/whatsapp-button";
-
 const cormorantInfant = Cormorant_Infant({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -28,12 +27,12 @@ export const metadata: Metadata = {
     icon: favIcon.src,
   },
   openGraph: {
-    title: "PureGlamy - Beauty Salon Next.js Template for Modern Salons",
+    title: "Glowing Skin BB-Luxury Skincare & Aesthetic Treatments in Miami",
     description:
-      "Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!",
+      "Licensed & Certified advanced aesthetic services: from Laser Hair Removal to Microneedling with Exosomes & PRP, experience the best in non-invasive skin rejuvenation in South Florida.",
     images: [
       {
-        url: "https://designtocodes.com/wp-content/uploads/2025/04/PureGlamy-Beauty-Salon-Next.js-Template-for-Modern-Salons.jpg",
+        url: favIcon.src,
       },
     ],
   },
@@ -62,7 +61,6 @@ export default function RootLayout({
     </html>
   );
 }
-
 /* 
     Template Name: PureGlamy - Beauty Salon Next.js Template for Modern Salons
     Template URL: https://designtocodes.com/product/pureglamy-beauty-salon-next-js-template-for-modern-salons

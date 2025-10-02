@@ -1,3 +1,4 @@
+import CeoHistory from "@/components/pages/about/ceo-history";
 import About from "@/components/pages/home/about";
 import Contact from "@/components/pages/home/contact";
 import Cta from "@/components/pages/home/cta";
@@ -7,7 +8,6 @@ import Hero from "@/components/pages/home/hero";
 import Portfolio from "@/components/pages/home/portfolio";
 import Pricing from "@/components/pages/home/pricing";
 import Services from "@/components/pages/home/services";
-import Team from "@/components/pages/home/team";
 import Testimonial from "@/components/pages/home/testimonial";
 import WhyChooseUs from "@/components/pages/home/why-chose-us";
 
@@ -20,7 +20,7 @@ export default function Home() {
       <Services />
       <Cta />
       <WhyChooseUs />
-      <Team />
+      <CeoHistory />
       <Portfolio />
       <Cta2 />
       <Testimonial />
