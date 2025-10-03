@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import teamBride from "@/assets/images/about.jpg";
-import flowerDown from "@/assets/images/flower-down.png";
+import starDer from "@/assets/images/star-der.png";
 import rightArrow from "@/assets/images/right-arrow.png";
 
 const About = () => {
@@ -31,7 +31,7 @@ const About = () => {
               </h2>
             </div>
             <Image
-              src={flowerDown}
+              src={starDer}
               className="absolute -top-10 -z-10 w-auto h-auto"
               alt="Flower Image"
               width={1000}
