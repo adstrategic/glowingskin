@@ -21,17 +21,21 @@ const Cta2 = () => {
 
         <div className="space-y-6 text-center w-full md:w-[80%] lg:w-[65%] xl:w-4/6 mx-auto">
           <h2 className="d2c_subtitle text-[#e6c6c6]">
-            Expertise combined with quality The essence of beauty
+            Every great glow begins with one decision{" "}
           </h2>
           <p className="text-[#6E6E6E]">
-            beauty and wellness specialists, we share our goal of meeting
-            individual needs with beauty products in an innovative way with
-            precision that inspires confidence.
+            to take care of yourself. At Glowing Skin Beauty Bar, we turn that
+            decision into confidence you can see and feel. Tap “Book” to begin
+            your transformation booking at Gloss Genius!{" "}
           </p>
-          <Link href="#d2c_contact" className="d2c_btn d2c_secondary_btn ">
-            Contact with Us
+          <a
+            href="https://glowingskinbar.glossgenius.com/services"
+            target="_blank"
+            className="d2c_btn d2c_secondary_btn "
+          >
+            Book with Glowing skin today
             <Image src={rightArrow} alt="Right Arrow" width={24} height={24} />
-          </Link>
+          </a>
         </div>
 
         <Image
@@ -42,24 +46,6 @@ const Cta2 = () => {
           height={80}
         />
       </div>
-
-      <Image
-        src={girlsWithFlower}
-        className="hidden lg:block absolute left-0 bottom-0 lg:w-[200px] 2xl:w-[320px] lg:h-[250px] 2xl:h-[450px] object-cover"
-        data-aos="fade-in"
-        alt="Girls with flower"
-        width={320}
-        height={450}
-      />
-
-      <Image
-        src={girlsLeftView}
-        className="hidden lg:block absolute top-0 right-0 lg:w-[200px] 2xl:w-[320px] lg:h-[250px] 2xl:h-[450px] object-cover"
-        data-aos="fade-in"
-        alt="Girls with flower"
-        width={320}
-        height={450}
-      />
     </section>
   );
 };

@@ -17,15 +17,13 @@ export default function Home() {
       <Hero />
       <Features />
       <About />
-      <Services />
       <Cta />
-      <WhyChooseUs />
-      <CeoHistory />
-      <Portfolio />
-      <Cta2 />
-      <Testimonial />
       <Pricing />
-      <Contact />
+      <WhyChooseUs />
+      <Cta2 />
+      <Portfolio />
+      <CeoHistory />
+      <Testimonial />
     </>
   );
 }

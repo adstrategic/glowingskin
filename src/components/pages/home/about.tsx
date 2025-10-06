@@ -55,8 +55,8 @@ const About = () => {
               From your first consultation to your treatment plan, we focus on
               making every client feel comfortable, confident, and radiant.
             </p>
-            <Link href="#d2c_services" className="d2c_btn d2c_primary_btn">
-              Explore More
+            <Link href="#d2c_contact" className="d2c_btn d2c_primary_btn">
+              Get to know us
               <Image
                 src={rightArrow}
                 alt="Right Arrow"

@@ -43,7 +43,7 @@ const servicesData = [
     services: [
       {
         name: "Laser Hair Removal (Candela GentleYAG)",
-        price: "$100+",
+        price: "100+",
       },
       //   { name: "Pedicure", price: "35" },
       //   { name: "French manicure", price: "20" },

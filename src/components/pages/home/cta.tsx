@@ -17,8 +17,9 @@ const Cta = () => {
           <h2 className="d2c_subtitle text-4xl xl:text-6xl text-white z-20 relative">
             Ready to book your appointment?
           </h2>
-          <Link
-            href="#d2c_contact"
+          <a
+            href="https://glowingskinbar.glossgenius.com/services"
+            target="_blank"
             className="d2c_btn d2c_secondary_btn justify-center"
           >
             Schedule Your Appointment
@@ -28,7 +29,7 @@ const Cta = () => {
               width={24}
               height={24}
             />
-          </Link>
+          </a>
         </div>
       </div>
       <div className="bg-primary absolute inset-0 -z-20"></div>

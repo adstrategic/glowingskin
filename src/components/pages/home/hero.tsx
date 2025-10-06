@@ -61,10 +61,20 @@ const Hero = () => {
               Removal to Microneedling with Exosomes & PRP, experience the best
               in non-invasive skin rejuvenation in South Florida.
             </p>
-            <Link href="#d2c_about" className="d2c_btn d2c_primary_btn mt-3">
-              Read More
-              <Image src={rightArrow} alt="Right Arrow" />
-            </Link>
+            <a
+              href="https://glowingskinbar.glossgenius.com/services"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="d2c_btn d2c_primary_btn w-full md:max-w-max text-center justify-center flex items-center gap-2"
+            >
+              Book Now
+              <Image
+                src={rightArrow}
+                alt="Right Arrow"
+                width={24}
+                height={24}
+              />
+            </a>
           </div>
         </div>
         <div className="md:absolute right-0 bottom-0 w-full md:w-[350px] lg:w-[450px] xl:w-[500px] 2xl:w-[580px]">

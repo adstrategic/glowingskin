@@ -1,25 +1,24 @@
 import Image from "next/image";
 import React from "react";
-import hairCare from "@/assets/images/hair-care.jpg";
-import skinCare from "@/assets/images/skincare.jpg";
-import nailArt from "@/assets/images/Nail-Art.jpg";
-// import makeup from "@/assets/images/Makeup.jpg";
+import featureImg1 from "@/assets/images/Features-04.jpg";
+import featureImg2 from "@/assets/images/Features-05.jpg";
+import featureImg3 from "@/assets/images/Features-06.jpg";
 
 const servicesData = [
   {
-    image: hairCare,
+    image: featureImg1,
     title: "Laser Hair Removal",
     height: "h-[400px] md:h-[300px] lg:h-[420px]",
     gridClass: "col-span-1",
   },
   {
-    image: skinCare,
+    image: featureImg2,
     title: "Microneedling with Exosomes & Salmon DNA",
     height: "h-[250px] md:h-[200px] lg:h-[285px]",
     gridClass: "space-y-4 md:space-y-6",
   },
   {
-    image: nailArt,
+    image: featureImg3,
     title: "Hydrafacial",
     height: "h-[250px] md:h-[200px] lg:h-[285px]",
     gridClass: "",
