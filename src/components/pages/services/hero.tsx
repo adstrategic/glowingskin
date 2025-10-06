@@ -1,135 +1,91 @@
-import React from "react";
-import Link from "next/link";
+"use client";
+
+import React, { useState, useEffect } from "react";
+import rightArrow from "@/assets/images/right-arrow.png";
+import s1 from "@/assets/images/s1.png";
+import s2 from "@/assets/images/s2.png";
+import s3 from "@/assets/images/s3.png";
+import s4 from "@/assets/images/s4.png";
 import Image from "next/image";
-import heroImage from "@/assets/images/hero-image.png";
 
-const ServicesHero = () => {
+const Hero = ({
+  title,
+  paragraph,
+  cta,
+}: {
+  title: string;
+  paragraph: string;
+  cta: string;
+}) => {
+  const images = [s1, s2, s3, s4];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // Cambia cada 5 segundos
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
-    <div className=" relative overflow-hidden">
-      {/* Header */}
-
-      {/* Main Hero Content */}
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row items-center min-h-[80vh]">
-          {/* Left Content */}
-          <div className="flex-1 lg:w-1/2 z-10 relative">
-            <div className="max-w-lg">
-              {/* Main Headline */}
-              <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-black leading-tight mb-6">
-                Because You Deserve The Best Skin Tone
-              </h2>
-
-              {/* Description */}
-              <p className="text-gray-600 text-base md:text-lg mb-8 leading-relaxed">
-                We provide beauty and treatment services with best quality and
-                price. Believe us.
-              </p>
-
-              {/* CTA Button */}
-              <Link
-                href="/appointment"
-                className="inline-block bg-[#5D4E37] text-white px-8 py-4 rounded-md text-lg font-medium hover:bg-[#4A3E2E] transition-colors duration-300"
-              >
-                Ready to relax?
-              </Link>
-            </div>
-          </div>
-
-          {/* Right Content - Image and Reviews */}
-          <div className="flex-1 lg:w-1/2 relative mt-12 lg:mt-0 flex items-center ">
-            {/* Woman Image - Centered */}
-            <div className="relative z-20">
-              <div className="relative">
-                {/* Woman image */}
-                <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] lg:w-[350px] lg:h-[500px] xl:w-[400px] xl:h-[550px] relative overflow-hidden">
-                  <Image
-                    src={heroImage}
-                    alt="Beautiful woman with glowing skin"
-                    fill
-                    className="object-cover object-center"
-                    priority
-                  />
-                </div>
-              </div>
-            </div>
-
-            {/* Quote Section - Positioned relative to the centered image */}
-            <div className="absolute top-0 right-0 lg:-right-4 xl:-right-8 z-30 max-w-xs">
-              <div className="text-right">
-                {/* Orange Quote Icon */}
-                <div className="text-5xl md:text-6xl lg:text-7xl text-[#D2691E] mb-2 leading-none">
-                  &ldquo;
-                </div>
-
-                {/* Quote Text */}
-                <p className="text-gray-600 text-xs md:text-sm lg:text-base leading-relaxed">
-                  Let your worries go away with Our indulgent{" "}
-                  <span className="text-[#D2691E] font-semibold">
-                    beauty treatments
-                  </span>
-                </p>
-              </div>
-            </div>
-
-            {/* Rating Section - Positioned relative to the centered image */}
-            <div className="absolute bottom-0 right-0 lg:-right-4 xl:-right-8 z-30">
-              <div className="text-right">
-                {/* Rating Number */}
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-2">
-                  9.5
-                </div>
-
-                {/* Stars */}
-                <div className="flex justify-end mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      className="w-4 h-4 md:w-5 md:h-5 text-yellow-800"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-
-                {/* Reviews Count */}
-                <p className="text-gray-600 text-xs md:text-sm">20 Reviews</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Decorative Elements */}
-      {/* Pink Roses */}
-      <div className="absolute bottom-0 left-0 z-10 hidden lg:block">
-        <div className="w-20 h-20 opacity-30">
-          <svg viewBox="0 0 100 100" className="w-full h-full">
-            <circle cx="20" cy="80" r="8" fill="#FFB6C1" />
-            <circle cx="35" cy="75" r="6" fill="#FFB6C1" />
-            <circle cx="50" cy="80" r="7" fill="#FFB6C1" />
-            <path
-              d="M15 85 Q25 70 35 85 Q45 70 55 85"
-              stroke="#90EE90"
-              strokeWidth="2"
-              fill="none"
+    <section
+      id="d2c_hero"
+      className="relative pb-0 pt-12 md:pt-70px lg:pt-[80px] xl:pt-[100px] overflow-hidden min-h-screen"
+    >
+      {/* Carousel de imágenes de fondo */}
+      <div className="absolute inset-0 w-full h-full">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${
+              index === currentImageIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Image
+              src={image}
+              alt={`Background ${index + 1}`}
+              fill
+              className="object-cover"
+              priority={index === 0}
             />
-          </svg>
-        </div>
+          </div>
+        ))}
       </div>
 
-      {/* Background Texture */}
-      {/* <div className="absolute inset-0 opacity-5">
-        <div
-          className="w-full h-full"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          }}
-        />
-      </div> */}
-    </div>
+      {/* Overlay con blur para contraste */}
+      <div className="absolute inset-0 bg-[#443939]/70 backdrop-blur-[4px]"></div>
+
+      {/* Contenido */}
+      <div className="container relative h-full md:h-[470px] lg:h-[75vh] xl:h-[700px] 2xl:h-[800px] space-y-3 md:space-y-0 flex flex-col justify-between z-10">
+        <h1 className="d2c_title text-5xl md:text-6xl lg:text-[84px] xl:text-[100px] 2xl:text-[117px] font-semibold leading-none text-center md:text-left text-white drop-shadow-lg">
+          {title}
+        </h1>
+        <div className="w-full md:w-[50%] lg:w-[55%] pb-5 md:pb-24 lg:pb-44">
+          <div className="!space-y-2 md:!space-y-10 text-center md:text-left">
+            <p className="text-base md:text-sm lg:text-lg xl:text-lg text-white drop-shadow-md mb-8">
+              {paragraph}
+            </p>
+            <a
+              href="https://glowingskinbar.glossgenius.com/services"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="d2c_btn d2c_primary_btn w-full md:max-w-max text-center justify-center flex items-center gap-2"
+            >
+              {cta}
+              <Image
+                src={rightArrow}
+                alt="Right Arrow"
+                width={24}
+                height={24}
+              />
+            </a>
+          </div>
+        </div>
+        <div className="md:absolute right-0 bottom-0 w-full md:w-[350px] lg:w-[450px] xl:w-[500px] 2xl:w-[580px]"></div>
+      </div>
+    </section>
   );
 };
 
-export default ServicesHero;
+export default Hero;

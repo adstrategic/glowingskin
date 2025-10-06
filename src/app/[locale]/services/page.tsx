@@ -1,33 +1,28 @@
-// import About from "@/components/pages/home/about";
-// import Contact from "@/components/pages/home/contact";
 import Cta from "@/components/pages/home/cta";
 import Cta2 from "@/components/pages/home/Cta2";
-// import Features from "@/components/pages/home/features";
-// import Hero from "@/components/pages/home/hero";
+import Features from "@/components/pages/home/features";
 import Portfolio from "@/components/pages/home/portfolio";
 import Pricing from "@/components/pages/home/pricing";
-import Services from "@/components/pages/home/services";
-// import Team from "@/components/pages/home/team";
-// import Testimonial from "@/components/pages/home/testimonial";
 import WhyChooseUs from "@/components/pages/home/why-chose-us";
 import ServicesHero from "@/components/pages/services/hero";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t = useTranslations("ServicesPage.Hero");
+
   return (
     <>
-      {/* <Hero /> */}
-      <ServicesHero />
-      {/* <Features /> */}
-      {/* <About /> */}
+      <ServicesHero
+        title={t("title")}
+        paragraph={t("description")}
+        cta={t("cta")}
+      />
       <Pricing />
       <Cta />
-      <Services />
+      <Features />
       <WhyChooseUs />
-      {/* <Team /> */}
       <Portfolio />
-      {/* <Testimonial /> */}
       <Cta2 />
-      {/* <Contact /> */}
     </>
   );
 }

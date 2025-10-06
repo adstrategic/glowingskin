@@ -1,259 +1,267 @@
 {
   "Homepage": {
-    "Metadata": {
-      "title": "CIMA PRODUCE INC Wholesales Produce",
-      "description": "We are a leading company in the import of Tahiti lime, with more than 8 years of experience in the North American market."
-    },
     "Hero": {
-      "title": "Venta al por mayor de",
-      "description": "We are leading suppliers of Tahiti Lime and various types of wholesale fresh produce. More than 8 years of experience in the North American market, certified quality.",
-      "cta": "Learn More"
+      "title": "Luxury Skincare & Aesthetic Treatments in Miami",
+      "paragraph": "Licensed & Certified advanced aesthetic services: from Laser Hair Removal to Microneedling with Exosomes & PRP, experience the best in non-invasive skin rejuvenation in South Florida.",
+      "cta": "Book Now"
     },
-    "MainProduct": {
-      "subtitle": "Wholesale Tahiti Lime",
-      "title": "Tahiti Lime",
-      "description": "Superior quality, direct from the field to your warehouse",
-      "specifications": {
-        "variety": {
-          "title": "Variety",
-          "description": "Tahiti Lime"
-        },
-        "weight": {
-          "title": "Size/Quantity",
-          "description": "All sizes available and pallets can be 60 or 70 boxes"
-        },
-        "package": {
-          "title": "Order",
-          "description": "Buy full container or by pallet"
-        },
-        "shipment": {
-          "title": "Shipment",
-          "description": "At CIMA we guarantee freshness, fast and efficient delivery in each shipment, becoming your trusted Tahiti lime supplier."
-        }
+    "Features": {
+      "face": {
+        "title": "Face",
+        "description": "Facial Treatments"
       },
-      "cta": "Contact Us"
-    },
-    "Catalog": {
-      "subtitle": "Wholesale distributor of citrus and vegetables",
-      "title": "Our Catalog",
-      "description": "In addition to the Tahiti lime, we have a portfolio of seasonal products that allow us to meet the needs of our customers throughout the year.",
-      "catalogImages": {
-        "carrots": {
-          "id": "carrots-image",
-          "url": "/assets/catalog/carrots.webp",
-          "alt": "Carrots"
-        },
-        "tahiti-lime": {
-          "id": "tahiti-lime-image",
-          "url": "/assets/catalog/lime.webp",
-          "alt": "Tahiti Lime"
-        },
-        "oranges": {
-          "id": "oranges-image",
-          "url": "/assets/catalog/orange.webp",
-          "alt": "Oranges"
-        },
-        "tangerines": {
-          "id": "tangerine-image",
-          "url": "/assets/catalog/tangarine.webp",
-          "alt": "Tangerines"
-        },
-        "plantains": {
-          "id": "plantains-image",
-          "url": "/assets/catalog/plantain.webp",
-          "alt": "Plantains"
-        },
-        "onions": {
-          "id": "onions-image",
-          "url": "/assets/catalog/onions.webp",
-          "alt": "Onions"
-        }
+      "body": {
+        "title": "Body",
+        "description": "Body remodeling"
       },
-      "tempcta": "Seasonal",
-      "allyear": "All year",
-      "techsheet": "Technical Sheet",
-      "cta": "Get a quote"
-    },
-    "Experience": {
-      "title": "Our Experience",
-      "cta": "About us",
-      "experienceYears": "Years of experience",
-      "clientsSatisfied": "Satisfied clients",
-      "productionLength": "Hectares of production",
-      "countriesDelivering": "Producing countries (Col, Mex)"
-    },
-    "Journey": {
-      "title": "Our Journey",
-      "description": "Our Tahiti Lime and other products are grown and delivered with precision and care. With over 8 years of experience we know how to deliver the best quality on the market.",
-      "aboutPablo": {
-        "trigger": "See more",
-        "title": "My journey",
-        "description": "Pablo Alzate - President",
-        "text": {
-          "1": "I am Pablo Alzate, President of CIMA PRODUCE INC. My career in the world of produce began 15 years ago in the Colombian market, where I acquired knowledge about the purchase, sale and management of products, especially citrus fruits.",
-          "2": "Approximately ten years ago I moved to the United States and found the opportunity to work in the Miami market through a family business. I started from scratch, as a forklift driver in the plaza, but this experience allowed me to thoroughly understand the products and how the market in the US works.",
-          "3": "Over time, I ventured into the retail sector and directly served citrus customers, which gave me comprehensive knowledge of the entire production chain: from harvesting in the fields to optimal distribution to customers. That's when CIMA PRODUCE INC was born."
-        },
-        "close": "Close"
+      "laser": {
+        "title": "Laser",
+        "description": "laser hair removal"
       }
     },
-    "Certificates": {
-      "title": "Certifications that support us",
-      "description": "Our commitment is to provide freshness, flavor and excellence in every shipment, supported by a solid network of certified producers and a team dedicated to ensuring the satisfaction of our business partners.",
-      "principles": {
-        "experience": {
-          "title": "Experience",
-          "description": "We have over 8 years of experience marketing agricultural products and building strong business relationships throughout North America."
+    "About": {
+      "title": "About Us",
+      "subtitle": "Crafted for Radiance & Confidence",
+      "p1": "At Glowing Skin Beauty Bar, we believe that beauty is more than skin deep - it's about confidence and wellness. Founded by Angie, a licensed and certified aesthetician with years of hands-on experience, our mission is to provide luxury skin care and body treatments that combine advanced technology with personalized care.",
+      "p2": "From your first consultation to your treatment plan, we focus on making every client feel comfortable, confident, and radiant.",
+      "cta": "Get to know us"
+    },
+    "CTA1": {
+      "title": "Ready to book your appointment?",
+      "p": "📍 Located at 1000 West Ave, Miami, FL 33139, proudly serving all of South Florida including Miami Beach, Brickell, Coral Gables, and surrounding areas.",
+      "cta": "Schedule Your Appointment"
+    },
+    "CTA2": {
+      "title": "Every great glow begins with one decision",
+      "p": "To take care of yourself. At Glowing Skin Beauty Bar, we turn that decision into confidence you can see and feel. Tap “Book” to your transformation booking at Gloss Genius!",
+      "cta": "Book with Glowing skin today"
+    },
+    "Portfolio": {
+      "header": {
+        "subtitle": "See the Magic We Create",
+        "title": "Our Glamorous Portfolio"
+      },
+      "items": {
+        "one": {
+          "description": "Elegant bridal hair and makeup, tailored to perfection for your special day"
         },
-        "commitment": {
-          "title": "Commitment",
-          "description": "Our commitment is to be the bridge between agricultural producers in Latin America and wholesale markets in North America, offering quality with the highest standards."
+        "two": {
+          "description": "A peek inside our luxurious salon space, where beauty and relaxation meet"
         },
-        "quality": {
-          "title": "Maximum Quality",
-          "description": "Shipping excellence is guaranteed and certified. We have a team dedicated to ensuring the quality of the shipment of agricultural products."
+        "three": {
+          "description": "Bold and glamorous nail art designed to make a statement"
         },
-        "prices": {
-          "title": "Best Prices",
-          "description": "CIMA offers highly competitive wholesale products, offering high quality and shipping efficiency."
+        "four": {
+          "description": "Classic French manicure with a modern twist of style and grace"
         }
       }
     },
-    "Map": {
-      "subtitle": "Citrus Wholesale",
-      "title": "Bringing freshness to all of North America",
-      "description": "Our locations in the US and Canada ensure a consistent supply of premium quality products.",
-      "marketCountries": {
-        "title": "Main countries where we sell:",
-        "countries": {
-          "canada": "Canada",
-          "usa": "United States"
+    "Pricing": {
+      "header": {
+        "subtitle": "See Our",
+        "title": "Service Prices"
+      },
+      "fromLabel": "from",
+      "sections": {
+        "facials": {
+          "title": "Facial Treatments",
+          "imageAlt": "Make Up girl",
+          "services": [
+            { "name": "Hydrafacial", "price": "150" },
+            { "name": "Microneedling with serum", "price": "180" },
+            { "name": "PRP Microneedling (Plasma)", "price": "220+" },
+            { "name": "RF Microneedling PRP", "price": "300+" }
+          ]
+        },
+        "body": {
+          "title": "Body Remodeling",
+          "imageAlt": "Hair Styling girl",
+          "services": [
+            { "name": "EMS Body Shaping / Muscle Building", "price": "100" },
+            { "name": "Mesotherapy (Fat Burners)", "price": "50" }
+          ]
+        },
+        "laser": {
+          "title": "Laser Hair Removal",
+          "imageAlt": "Nail care girl",
+          "services": [
+            {
+              "name": "Laser Hair Removal (Candela GentleYAG)",
+              "price": "100+"
+            }
+          ]
+        },
+        "other": {
+          "title": "Other services mentioned on IG / reviews",
+          "imageAlt": "Cosmetology girl",
+          "services": [
+            { "name": "B12 shot injections", "price": "80" },
+            { "name": "PRP therapy", "price": "75" },
+            { "name": "Body sculpting", "price": "50" }
+          ]
         }
-      },
-      "companyLocation": {
-        "title": "Company location:",
-        "location": "Florida, USA"
-      },
-      "cta": "Contact Us"
+      }
     },
-    "Contact": {
-      "title": "We quote you the best wholesale vegetable and citrus price",
-      "description": "Contact us for wholesale premium vegetables and citrus throughout North America.",
-      "phoneLabel": "Phone",
-      "addressLabel": "Address"
+    "WhyChoose": {
+      "header": {
+        "subtitle": "Experience Luxury & Care",
+        "title": "Why Choose Glowing Skin Beauty Bar"
+      },
+      "items": {
+        "expert": { "title": "Licensed & Certified Expert" },
+        "technology": { "title": "Premium Technology" },
+        "personalized": { "title": "Personalized Care" },
+        "houseCalls": { "title": "House Calls Available" }
+      }
     },
-    "FAQs": {
-      "title": "Frequently asked questions",
-      "description": "Don't forget to contact us for more information and to resolve any questions you may have.",
-      "questions": {
-        "question1": {
-          "question": "Where are the products imported from?",
-          "answer": "We import Tahiti limes primarily from Colombia and Mexico. We also offer other seasonal products from various regions."
+    "Testimonial": {
+      "header": {
+        "subtitle": "Our Client",
+        "title": "Testimonials"
+      },
+      "alts": {
+        "double": "Double quotation",
+        "right": "Right Quotation"
+      },
+      "items": {
+        "one": {
+          "profession": "Artist",
+          "name": "Maria Davis",
+          "testimonial": "Angie is amazing at what she does! She takes the time to really look at your skin and talk through what it needs. Not only is the facial itself relaxing, but Angie also gives great suggestions. Highly recommend her!"
         },
-        "question2": {
-          "question": "What kind of products do you offer besides Tahiti limes?",
-          "answer": "In addition to Tahiti limes, we work with a variety of seasonal produce, including bananas, carrots, oranges, watermelon, and other fresh fruits and vegetables. Our offering varies depending on the season and availability."
+        "two": {
+          "profession": "Artist",
+          "name": "Luna park",
+          "testimonial": "It was a pleasure getting a hydrafacial with Angie. She is so nice and great to talk to. My skin is clean, hydrated, and glowing!"
         },
-        "question3": {
-          "question": "How do you manage transportation and logistics?",
-          "answer": "We have an efficient and reliable logistics network that ensures products arrive fresh and in the best condition."
+        "three": {
+          "profession": "Artist",
+          "name": "Maria Davis",
+          "testimonial": "Angie's amazing! I got a hydra facial & my skin is glowing."
+        },
+        "four": {
+          "profession": "Artist",
+          "name": "Maria Davis",
+          "testimonial": "Angelica is very professional, knowledgeable and patient. She explains every procedure very thoroughly. I'm very happy with my treatment and results."
         }
       }
     }
   },
-  "Form": {
-    "nameLabel": "Name",
-    "mailLabel": "E-mail",
-    "phoneLabel": "Phone",
-    "messageLabel": "Message",
-    "cta": "Send Message"
-  },
-  "LatestNews": {
-    "title": "Latest News",
-    "description": "Stay up to date with the latest news from our company.",
-    "cta": "Show More"
-  },
-  "Footer": {
-    "socialMediaLabel": "Connect with us on social media:",
-    "description": "Leading supplier of Tahiti lime and other products in North America, committed to quality, sustainability and excellence in wholesale.",
-    "productsLinks": {
-      "title": "Products",
-      "lime": "Tahiti Lime",
-      "carrot": "Carrot",
-      "onion": "Onion",
-      "plantain": "Plantain"
+  "AboutPage": {
+    "Hero": {
+      "brand": "Glowing Skin Beauty Bar",
+      "title": "Discover Our Story",
+      "description": "Explore our experience, story and the reasons why you should choose us",
+      "cta": "Contact",
+      "alts": {
+        "rightArrow": "Right Arrow",
+        "profile": "Profile image"
+      }
     },
-    "fastLinks": {
-      "title": "Quick Links",
-      "blog": { "label": "Blog", "url": "/blog" },
-      "journey": { "label": "Our Journey", "url": "/#about-us" },
-      "contact": { "label": "Contact us", "url": "/#contact" },
-      "catalog": { "label": "Catalog", "url": "/#catalog" },
-      "certificates": { "label": "Certificates", "url": "/#certificates" }
-    },
-    "contactLabel": "Contact"
-  },
-  "HeaderLinks": {
-    "cta": "Contact Us",
-    "home": { "label": "Home", "url": "/" },
-    "blog": { "label": "Blog", "url": "/blog" },
-    "catalog": { "label": "Catalog", "url": "/#catalog" },
-    "aboutUs": { "label": "Journey", "url": "/#about-us" },
-    "certificates": { "label": "Certificates", "url": "/#certificates" }
-  },
-  "Blog": {
-    "Metadata": {
-      "title": "CIMA PRODUCE INC's Blog",
-      "description": "Explore our recent posts about our Tahiti lime, catalog, offers and more."
-    },
-    "title": "Welcome to <highlight>CIMA</highlight>",
-    "description": "Discover our most up-to-date information about our company.",
-    "postsSectionTitle": "Latest news and offers",
-    "postsSectionDescription": "Explore our recent posts about our Tahiti lime, catalog, offers and more.",
-    "ctaTitle": "Stay connected with CIMA",
-    "ctaDescription": "Join our community to get the latest updates on pricing and exclusive offers!",
-    "contactCta": "Contact Us",
-    "followCta": "Follow Us",
-    "FAQs": {
-      "title": "Frequently asked questions",
-      "description": "Don't forget to contact us for more information and to resolve any questions you may have.",
-      "questions": {
-        "question1": {
-          "question": "What courses do you offer?",
-          "answer": "We offer a variety of courses across subjects like programming, data science, design, and business management."
+    "AboutUs": {
+      "header": {
+        "subtitle": "Our Mission, Vision & Values",
+        "paragraph": "At Glowing Skin Beauty Bar, everything we do is guided by our commitment to excellence, safety, and personalized care."
+      },
+      "mission": {
+        "imageAlt": "Our Mission",
+        "title": "Our Mission",
+        "paragraph": "To provide exceptional aesthetic treatments that enhance natural beauty while prioritizing client safety, comfort, and satisfaction. We strive to make every client feel confident and radiant."
+      },
+      "vision": {
+        "imageAlt": "Our Vision",
+        "title": "Our Vision",
+        "paragraph": "To be South Florida's premier destination for advanced aesthetic treatments, known for our expertise, innovation, and unwavering commitment to client care and satisfaction."
+      },
+      "values": {
+        "imageAlt": "Our Values",
+        "title": "Our Values",
+        "paragraph": "Excellence in service, integrity in practice, innovation in treatments, and compassion in care. We believe in empowering our clients through personalized beauty solutions."
+      },
+      "whyChoose": {
+        "badge": "Why Choose Us",
+        "title": "Why Choose Us",
+        "paragraph": "Our mission is to drive progress and enhance the lives of our customers by delivering superior products and services that exceed."
+      },
+      "cards": {
+        "happyClients": {
+          "imageAlt": "Happy Clients",
+          "label": "Happy Clients"
         },
-        "question2": {
-          "question": "How long do the courses take?",
-          "answer": "Course duration varies; some are completed in a few hours while others may take several weeks, depending on the depth of the content."
+        "yearsExperience": {
+          "imageAlt": "Years Experience",
+          "label": "Your Growth Partner"
         },
-        "question3": {
-          "question": "Are the courses self-paced?",
-          "answer": "Yes, our courses are self-paced, allowing you to learn at your own speed and convenience."
+        "servicesOffered": {
+          "imageAlt": "Services Offered",
+          "label": "Happy Clients"
         },
-        "question4": {
-          "question": "Do I receive a certificate upon completion?",
-          "answer": "Yes, upon completing a course, you will receive a certificate that you can download and share."
-        },
-        "question5": {
-          "question": "Is there a money-back guarantee?",
-          "answer": "Absolutely! If you are not satisfied with a course, you can request a full refund within 30 of purchase."
-        },
-        "question6": {
-          "question": "Can I access the courses on mobile devices?",
-          "answer": "Yes, our platform is mobile-friendly, allowing you to access courses on smartphones and."
+        "awardsWon": {
+          "imageAlt": "Awards Won",
+          "label": "Your Growth Partner"
         }
+      },
+      "decor": {
+        "dotSmallAlt": "Dot 3*3",
+        "dotBiggerAlt": "Dot 4*4"
+      }
+    },
+    "CeoHistory": {
+      "title": "Meet Our Founder & CEO",
+      "p1": "Angie Rodriguez is a licensed and certified aesthetician with over 8 years of experience in advanced skincare and aesthetic treatments. Her passion for helping clients achieve their beauty goals led her to establish Glowing Skin Beauty Bar.",
+      "p2": "With specialized training in laser therapy, microneedling, and advanced skincare techniques, Angie has built a reputation for delivering exceptional results while ensuring client comfort and safety.",
+      "p3": "Her vision was to create a space where clients could receive premium aesthetic treatments in a welcoming, professional environment. Under her leadership, the clinic has become a trusted destination for beauty and wellness in South Florida.",
+      "quote": "“Beauty is about feeling confident in your own skin. My mission is to help every client discover their natural radiance and feel their absolute best.”",
+      "cite": "- Angie Rodriguez, Founder & CEO",
+      "imageAlt": "Angie Rodriguez - Founder & CEO",
+      "nameOverlay": "Angie"
+    }
+  },
+  "ServicesPage": {
+    "Hero": {
+      "title": "Services, Portfolio & Pricing we offer on South Florida ",
+      "description": "Discover the full range of advanced aesthetic services we offer, including detailed pricing, an inspiring portfolio of our work, and exclusive treatments tailored to your needs. Explore our comprehensive catalog and see how we can help you achieve your beauty goals with expertise and care!",
+      "cta": "Book Now"
+    }
+  },
+  "Shared": {
+    "Footer": {
+      "contactTitle": "Contact",
+      "email": "info@example.com",
+      "address": "8502 Preston Rd. Inglewood +0 123-456-7890",
+      "hoursTitle": "Working Hours",
+      "hours": {
+        "workingDays": "Working Days: 9AM - 9PM",
+        "saturday": "Saturday: 10AM - 8PM",
+        "sunday": "Sunday: Closed"
+      },
+      "copyright": {
+        "textPrefix": "Copyright ©",
+        "brand": "DesignToCodes",
+        "textSuffix": ". All Right Reserved"
+      },
+      "links": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms & Condition"
+      },
+      "alts": {
+        "footerLogo": "Footer Logo"
+      }
+    },
+    "Header": {
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services"
+      },
+      "alts": {
+        "logo": "Glowing Skin logo",
+        "mobileLogo": "logo"
       }
     }
   },
-  "BlogPost": {
-    "lastUpdate": "Last Update: ",
-    "tableOfContentsMobile": "ON THIS PAGE",
-    "tableOfContents": "Table of contents",
-    "shareBtn": "Share"
-  },
-  "ThankYouPage": {
-    "message": "Email Sent Succesfully",
-    "appreciation": "Thank you for submitting our form",
-    "goodbye": "We will contact you ASAP⚡."
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
   }
 }

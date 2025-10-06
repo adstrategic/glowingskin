@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import dotSmall from "@/assets/images/dot-small.png";
 import dotBigger from "@/assets/images/dot-bigger.png";
-import girlsWithFlower from "@/assets/images/girls-with-flower.jpg";
-import girlsLeftView from "@/assets/images/girls-left-view.jpg";
 import rightArrow from "@/assets/images/right-arrow.png";
+import { useTranslations } from "next-intl";
 
 const Cta2 = () => {
+  const t = useTranslations("Homepage.CTA2");
+
   return (
     <section className="xl:py-24 2xl:py-44 bg-primary relative">
       <div className="container relative">
@@ -20,20 +20,14 @@ const Cta2 = () => {
         />
 
         <div className="space-y-6 text-center w-full md:w-[80%] lg:w-[65%] xl:w-4/6 mx-auto">
-          <h2 className="d2c_subtitle text-[#e6c6c6]">
-            Every great glow begins with one decision{" "}
-          </h2>
-          <p className="text-[#6E6E6E]">
-            to take care of yourself. At Glowing Skin Beauty Bar, we turn that
-            decision into confidence you can see and feel. Tap “Book” to begin
-            your transformation booking at Gloss Genius!{" "}
-          </p>
+          <h2 className="d2c_subtitle text-[#e6c6c6]">{t("title")}</h2>
+          <p className="text-[#6E6E6E]">{t("p")}</p>
           <a
             href="https://glowingskinbar.glossgenius.com/services"
             target="_blank"
             className="d2c_btn d2c_secondary_btn "
           >
-            Book with Glowing skin today
+            {t("cta")}
             <Image src={rightArrow} alt="Right Arrow" width={24} height={24} />
           </a>
         </div>

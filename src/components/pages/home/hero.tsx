@@ -6,10 +6,17 @@ import s1 from "@/assets/images/s1.png";
 import s2 from "@/assets/images/s2.png";
 import s3 from "@/assets/images/s3.png";
 import s4 from "@/assets/images/s4.png";
-import Link from "next/link";
 import Image from "next/image";
 
-const Hero = () => {
+const Hero = ({
+  title,
+  paragraph,
+  cta,
+}: {
+  title: string;
+  paragraph: string;
+  cta: string;
+}) => {
   const images = [s1, s2, s3, s4];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -50,16 +57,14 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[#443939]/70 backdrop-blur-[4px]"></div>
 
       {/* Contenido */}
-      <div className="container relative h-full md:h-[470px] lg:h-[75vh] xl:h-[700px] 2xl:h-[800px] space-y-3 md:space-y-0 flex flex-col justify-between z-10">
+      <div className="container relative h-full md:h-[470px] lg:h-[75vh] xl:h-[700px] 2xl:h-[800px] space-y-8 flex flex-col justify-between z-10">
         <h1 className="d2c_title text-5xl md:text-6xl lg:text-[84px] xl:text-[100px] 2xl:text-[117px] font-semibold leading-none text-center md:text-left text-white drop-shadow-lg">
-          Luxury Skincare & Aesthetic Treatments in Miami
+          {title}
         </h1>
-        <div className="w-full md:w-[50%] lg:w-[55%] pb-5 md:pb-24 lg:pb-44">
-          <div className="!space-y-2 md:!space-y-10 text-center md:text-left">
-            <p className="text-base md:text-sm lg:text-lg xl:text-lg text-white drop-shadow-md sr-only lg:not-sr-only">
-              Licensed & Certified advanced aesthetic services: from Laser Hair
-              Removal to Microneedling with Exosomes & PRP, experience the best
-              in non-invasive skin rejuvenation in South Florida.
+        <div className="w-full  lg:w-[55%] pb-5 md:pb-24 lg:pb-44">
+          <div className="!space-y-8 md:!space-y-10 text-center md:text-left">
+            <p className="text-base md:text-lg xl:text-lg text-white drop-shadow-md mb-8">
+              {paragraph}
             </p>
             <a
               href="https://glowingskinbar.glossgenius.com/services"
@@ -67,7 +72,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="d2c_btn d2c_primary_btn w-full md:max-w-max text-center justify-center flex items-center gap-2"
             >
-              Book Now
+              {cta}
               <Image
                 src={rightArrow}
                 alt="Right Arrow"
@@ -77,9 +82,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="md:absolute right-0 bottom-0 w-full md:w-[350px] lg:w-[450px] xl:w-[500px] 2xl:w-[580px]">
-          {/* <Image src={heroImg} className="w-full h-full" alt="Hero Image" /> */}
-        </div>
+        <div className="md:absolute right-0 bottom-0 w-full md:w-[350px] lg:w-[450px] xl:w-[500px] 2xl:w-[580px]"></div>
       </div>
     </section>
   );

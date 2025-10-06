@@ -1,28 +1,26 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import rightArrow from "@/assets/images/right-arrow.png";
 import womanDrying from "@/assets/images/cta.jpg";
+import { useTranslations } from "next-intl";
 
 const Cta = () => {
+  const t = useTranslations("Homepage.CTA1");
+
   return (
     <section className="lg:py-32 2xl:py-52 relative">
       <div className="container z-30">
         <div className="w-full md:w-[60%] xl:w-[38%] ml-0 md:ml-[40%] lg:ml-[45%] space-y-6 z-10 relative text-center md:text-left">
-          <p className="text-white">
-            📍 Located at 1000 West Ave, Miami, FL 33139, proudly serving all of
-            South Florida including Miami Beach, Brickell, Coral Gables, and
-            surrounding areas.
-          </p>
+          <p className="text-white">{t("p")}</p>
           <h2 className="d2c_subtitle text-4xl xl:text-6xl text-white z-20 relative">
-            Ready to book your appointment?
+            {t("title")}
           </h2>
           <a
             href="https://glowingskinbar.glossgenius.com/services"
             target="_blank"
             className="d2c_btn d2c_secondary_btn justify-center"
           >
-            Schedule Your Appointment
+            {t("cta")}
             <Image
               src={rightArrow}
               alt="Right Arrow Image"

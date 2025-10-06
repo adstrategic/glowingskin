@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { useTranslations } from "next-intl";
 import AnimatedCounter from "@/components/ui/animated-counter";
 import aboutUsImage from "@/assets/images/Why-Choose-01.jpg";
 import missionImage from "@/assets/images/Why-Choose-02.jpg";
@@ -12,24 +13,22 @@ import dotSmall from "@/assets/images/dot-small.png";
 import dotBigger from "@/assets/images/dot-bigger.png";
 
 const AboutUsSection = () => {
+  const t = useTranslations("AboutPage.AboutUs");
   return (
     <section className="py-20 md:py-28 lg:py-32" id="d2c_about_us">
       <div className="container relative">
         <Image
           src={dotSmall}
           className="hidden lg:block max-w-14 absolute -top-16 -left-2"
-          alt="Dot 3*3"
+          alt={t("decor.dotSmallAlt")}
           width={56}
           height={56}
         />
 
         {/* Header */}
         <div className="d2c_header">
-          <h2 className="d2c_subtitle">Our Mission, Vision & Values</h2>
-          <p className="text-lg">
-            At Glowing Skin Beauty Bar, everything we do is guided by our
-            commitment to excellence, safety, and personalized care.
-          </p>
+          <h2 className="d2c_subtitle">{t("header.subtitle")}</h2>
+          <p className="text-lg">{t("header.paragraph")}</p>
         </div>
 
         {/* Mission, Vision, Values Grid */}
@@ -40,20 +39,15 @@ const AboutUsSection = () => {
               <Image
                 src={aboutUsImage}
                 className="w-full h-full object-cover"
-                alt="Our Mission"
+                alt={t("mission.imageAlt")}
                 width={400}
                 height={300}
               />
             </div>
             <h3 className="text-secondary text-2xl xl:text-3xl font-semibold">
-              Our Mission
+              {t("mission.title")}
             </h3>
-            <p className="text-base">
-              To provide exceptional aesthetic treatments that enhance natural
-              beauty while prioritizing client safety, comfort, and
-              satisfaction. We strive to make every client feel confident and
-              radiant.
-            </p>
+            <p className="text-base">{t("mission.paragraph")}</p>
           </div>
 
           {/* Vision */}
@@ -62,19 +56,15 @@ const AboutUsSection = () => {
               <Image
                 src={missionImage}
                 className="w-full h-full object-cover"
-                alt="Our Vision"
+                alt={t("vision.imageAlt")}
                 width={400}
                 height={300}
               />
             </div>
             <h3 className="text-secondary text-2xl xl:text-3xl font-semibold">
-              Our Vision
+              {t("vision.title")}
             </h3>
-            <p className="text-base">
-              To be South Florida&apos;s premier destination for advanced
-              aesthetic treatments, known for our expertise, innovation, and
-              unwavering commitment to client care and satisfaction.
-            </p>
+            <p className="text-base">{t("vision.paragraph")}</p>
           </div>
 
           {/* Values */}
@@ -83,19 +73,15 @@ const AboutUsSection = () => {
               <Image
                 src={valuesImage}
                 className="w-full h-full object-cover"
-                alt="Our Values"
+                alt={t("values.imageAlt")}
                 width={400}
                 height={300}
               />
             </div>
             <h3 className="text-secondary text-2xl xl:text-3xl font-semibold">
-              Our Values
+              {t("values.title")}
             </h3>
-            <p className="text-base">
-              Excellence in service, integrity in practice, innovation in
-              treatments, and compassion in care. We believe in empowering our
-              clients through personalized beauty solutions.
-            </p>
+            <p className="text-base">{t("values.paragraph")}</p>
           </div>
         </div>
 
@@ -112,18 +98,16 @@ const AboutUsSection = () => {
           <div className="relative z-10">
             <div className="mb-4">
               <span className="inline-block px-4 py-2 bg-secondary text-primary text-sm font-semibold rounded-full mb-4">
-                Why Choose Us
+                {t("whyChoose.badge")}
               </span>
             </div>
 
             <h3 className="text-[#e6c6c6] text-4xl lg:text-5xl xl:text-6xl font-light mb-4 font-primary">
-              Why Choose Us
+              {t("whyChoose.title")}
             </h3>
 
             <p className="text-[#b8b8b8] text-lg max-w-4xl mx-auto mb-12">
-              Our mission is to drive progress and enhance the lives of our
-              customers by delivering superior products and services that
-              exceed.
+              {t("whyChoose.paragraph")}
             </p>
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 max-w-6xl mx-auto">
@@ -131,7 +115,7 @@ const AboutUsSection = () => {
               <div className="relative rounded-2xl overflow-hidden h-[280px] lg:h-[320px] group cursor-pointer">
                 <Image
                   src={cardImage1}
-                  alt="Happy Clients"
+                  alt={t("cards.happyClients.imageAlt")}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   width={400}
                   height={320}
@@ -144,7 +128,7 @@ const AboutUsSection = () => {
                       <AnimatedCounter end={30} suffix="+" />
                     </div>
                     <p className="text-white text-sm font-medium opacity-90">
-                      Happy Clients
+                      {t("cards.happyClients.label")}
                     </p>
                   </div>
                   <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 ml-4">
@@ -163,7 +147,7 @@ const AboutUsSection = () => {
               <div className="relative rounded-2xl overflow-hidden h-[280px] lg:h-[320px] group cursor-pointer">
                 <Image
                   src={cardImage2}
-                  alt="Years Experience"
+                  alt={t("cards.yearsExperience.imageAlt")}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   width={400}
                   height={320}
@@ -176,7 +160,7 @@ const AboutUsSection = () => {
                       <AnimatedCounter end={15} suffix="+" />
                     </div>
                     <p className="text-white text-sm font-medium opacity-90">
-                      Your Growth Partner
+                      {t("cards.yearsExperience.label")}
                     </p>
                   </div>
                   <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 ml-4">
@@ -195,7 +179,7 @@ const AboutUsSection = () => {
               <div className="relative rounded-2xl overflow-hidden h-[280px] lg:h-[320px] group cursor-pointer">
                 <Image
                   src={cardImage3}
-                  alt="Services Offered"
+                  alt={t("cards.servicesOffered.imageAlt")}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   width={400}
                   height={320}
@@ -208,7 +192,7 @@ const AboutUsSection = () => {
                       <AnimatedCounter end={35} suffix="+" />
                     </div>
                     <p className="text-white text-sm font-medium opacity-90">
-                      Happy Clients
+                      {t("cards.servicesOffered.label")}
                     </p>
                   </div>
                   <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 ml-4">
@@ -227,7 +211,7 @@ const AboutUsSection = () => {
               <div className="relative rounded-2xl overflow-hidden h-[280px] lg:h-[320px] group cursor-pointer">
                 <Image
                   src={cardImage4}
-                  alt="Awards Won"
+                  alt={t("cards.awardsWon.imageAlt")}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   width={400}
                   height={320}
@@ -240,7 +224,7 @@ const AboutUsSection = () => {
                       <AnimatedCounter end={18} suffix="+" />
                     </div>
                     <p className="text-white text-sm font-medium opacity-90">
-                      Your Growth Partner
+                      {t("cards.awardsWon.label")}
                     </p>
                   </div>
                   <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 ml-4">
@@ -261,7 +245,7 @@ const AboutUsSection = () => {
         <Image
           src={dotBigger}
           className="hidden xl:block max-w-20 absolute -bottom-20 -right-16"
-          alt="Dot 4*4"
+          alt={t("decor.dotBiggerAlt")}
           width={80}
           height={80}
         />
