@@ -30,20 +30,8 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <div className="d2c_social_link mt-6">
-              <Link href="#">
-                <span>
-                  <FaFacebookF />
-                </span>
-              </Link>
-
-              <Link href="#">
-                <span>
-                  <FaYoutube />
-                </span>
-              </Link>
-
-              <Link href="#">
+            <div className="d2c_social_link mt-6 ">
+              <Link href="https://www.instagram.com/glowingskinbb/">
                 <span>
                   <FaInstagram />
                 </span>
@@ -58,29 +46,6 @@ const Footer = () => {
             <p className="no-animation">{t("hours.saturday")}</p>
             <p className="no-animation">{t("hours.sunday")}</p>
           </div>
-        </div>
-      </div>
-
-      <div className="border-t d2c_copyright">
-        <div className="container grid grid-cols-1 md:grid-cols-2 items-center">
-          <p className="text-[#818080] text-[13px] lg:text-base text-center md:text-left transition-all no-animation">
-            {t("copyright.textPrefix")}{" "}
-            <Link
-              href="#"
-              className="font-semibold hover:text-white transition-all"
-            >
-              {t("copyright.brand")}
-            </Link>
-            {t("copyright.textSuffix")}
-          </p>
-          <ul className="flex justify-center md:justify-end gap-5 no-animation">
-            <li>
-              <Link href="#">{t("links.privacy")}</Link>
-            </li>
-            <li>
-              <Link href="#">{t("links.terms")}</Link>
-            </li>
-          </ul>
         </div>
       </div>
     </footer>

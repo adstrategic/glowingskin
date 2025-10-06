@@ -5,12 +5,14 @@ import Header from "@/components/shared/header";
 import Footer from "@/components/shared/footer";
 import "aos/dist/aos.css";
 import AOSInit from "@/components/shared/aos-init";
-import favIcon from "@/assets/images/logo/favicon.png";
+import glwf from "@/assets/images/logo/glwf.png";
+import complg from "@/assets/images/logo/complg.png"; // 🔹 Imagen para compartir el link
 import WhatsappButton from "@/components/shared/whatsapp-button";
 import { hasLocale, Locale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
+
 const cormorantInfant = Cormorant_Infant({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -28,11 +30,40 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   robots: "noindex, nofollow",
   icons: {
-    icon: favIcon.src,
+    icon: glwf.src, // 🔸 Este sigue siendo el favicon del navegador
   },
-  title: "PureGlamy - Beauty Salon Next.js Template for Modern Salons",
+  title:
+    "Glowing Skin Beauty Bar - Luxury Skincare & Aesthetic Treatments in Miami",
   description:
-    "Beauty salon Next.JS template that upgrades your beauty salon's website with PureGlamy - Beauty Salon Next.js Template for Modern Salons. Purchase the best!",
+    "From Laser Hair Removal to Microneedling with Exosomes & PRP, experience the best in non-invasive skin rejuvenation in South Florida!",
+
+  // 🔹 Imagen para cuando se comparte el link (Open Graph y redes sociales)
+  openGraph: {
+    title: "Glowing Skin Beauty Bar - Miami Luxury Skincare",
+    description:
+      "Experience professional skin rejuvenation and luxury aesthetic treatments in Miami.",
+    url: "https://glowingskinbb.com", // ⚠️ Reemplaza con tu dominio real
+    siteName: "Glowing Skin Beauty Bar",
+    images: [
+      {
+        url: complg.src,
+        width: 1200,
+        height: 630,
+        alt: "Glowing Skin Beauty Bar Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  // 🔹 También añadimos metadata para Twitter (si compartes en X/Twitter)
+  twitter: {
+    card: "summary_large_image",
+    title: "Glowing Skin Beauty Bar - Miami Luxury Skincare",
+    description:
+      "From Laser Hair Removal to Microneedling with Exosomes & PRP, experience the best in non-invasive skin rejuvenation.",
+    images: [complg.src],
+  },
 };
 
 type Props = {

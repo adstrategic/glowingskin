@@ -22,7 +22,11 @@ const ComponentName = () => {
                 {t("description")}
               </p>
 
-              <a href="#d2c_contact" className="mt-8 d2c_btn d2c_primary_btn">
+              <a
+                href="https://glowingskinbar.glossgenius.com/services"
+                target="_blank"
+                className="mt-8 d2c_btn d2c_primary_btn"
+              >
                 {t("cta")}
                 <Image
                   src={rightArrow}

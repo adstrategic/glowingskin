@@ -46,7 +46,7 @@ const About = () => {
             <p className="text-sm-1 xl:text-lg">{t("p1")}</p>
             <p>{t("p2")}</p>
             {/* TODO: mandar a gloss genius */}
-            <Link href="#d2c_contact" className="d2c_btn d2c_primary_btn">
+            <Link href="about" className="d2c_btn d2c_primary_btn">
               {t("cta")}
               <Image
                 src={rightArrow}

@@ -208,12 +208,12 @@
     },
     "CeoHistory": {
       "title": "Meet Our Founder & CEO",
-      "p1": "Angie Rodriguez is a licensed and certified aesthetician with over 8 years of experience in advanced skincare and aesthetic treatments. Her passion for helping clients achieve their beauty goals led her to establish Glowing Skin Beauty Bar.",
+      "p1": "Angie Tovar is a licensed and certified aesthetician with over 8 years of experience in advanced skincare and aesthetic treatments. Her passion for helping clients achieve their beauty goals led her to establish Glowing Skin Beauty Bar.",
       "p2": "With specialized training in laser therapy, microneedling, and advanced skincare techniques, Angie has built a reputation for delivering exceptional results while ensuring client comfort and safety.",
       "p3": "Her vision was to create a space where clients could receive premium aesthetic treatments in a welcoming, professional environment. Under her leadership, the clinic has become a trusted destination for beauty and wellness in South Florida.",
       "quote": "“Beauty is about feeling confident in your own skin. My mission is to help every client discover their natural radiance and feel their absolute best.”",
-      "cite": "- Angie Rodriguez, Founder & CEO",
-      "imageAlt": "Angie Rodriguez - Founder & CEO",
+      "cite": "- Angie Tovar, Founder & CEO",
+      "imageAlt": "Angie Tovar - Founder & CEO",
       "nameOverlay": "Angie"
     }
   },
@@ -227,12 +227,12 @@
   "Shared": {
     "Footer": {
       "contactTitle": "Contact",
-      "email": "info@example.com",
-      "address": "8502 Preston Rd. Inglewood +0 123-456-7890",
+      "email": "glowingskinbb@gmail.com",
+      "address": "1000 West Ave, Miami, FL 33139 +1 (954) 225-7085",
       "hoursTitle": "Working Hours",
       "hours": {
-        "workingDays": "Working Days: 9AM - 9PM",
-        "saturday": "Saturday: 10AM - 8PM",
+        "workingDays": "Working Days: 9AM - 6PM",
+        "saturday": "Saturday: 10:30AM - 2:30PM",
         "sunday": "Sunday: Closed"
       },
       "copyright": {

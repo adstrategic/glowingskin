@@ -208,12 +208,12 @@
     },
     "CeoHistory": {
       "title": "Conoce a Nuestra Fundadora y CEO",
-      "p1": "Angie Rodriguez es esteticista licenciada y certificada con más de 8 años de experiencia en cuidado avanzado de la piel y estética. Su pasión por ayudar a los clientes a alcanzar sus metas de belleza la llevó a crear Glowing Skin Beauty Bar.",
+      "p1": "Angie Tovar es esteticista licenciada y certificada con más de 8 años de experiencia en cuidado avanzado de la piel y estética. Su pasión por ayudar a los clientes a alcanzar sus metas de belleza la llevó a crear Glowing Skin Beauty Bar.",
       "p2": "Con formación especializada en terapia láser, microneedling y técnicas avanzadas de skincare, Angie ha construido una reputación por ofrecer resultados excepcionales priorizando la comodidad y seguridad del cliente.",
       "p3": "Su visión fue crear un espacio donde se brinden tratamientos estéticos de primer nivel en un entorno profesional y acogedor. Bajo su liderazgo, la clínica se ha convertido en un destino confiable de belleza y bienestar en el sur de Florida.",
       "quote": "“La belleza es sentirse seguro en tu propia piel. Mi misión es ayudar a cada cliente a descubrir su brillo natural y sentirse lo mejor posible.”",
-      "cite": "- Angie Rodriguez, Fundadora y CEO",
-      "imageAlt": "Angie Rodriguez - Fundadora y CEO",
+      "cite": "- Angie Tovar, Fundadora y CEO",
+      "imageAlt": "Angie Tovar - Fundadora y CEO",
       "nameOverlay": "Angie"
     }
   },
@@ -227,12 +227,12 @@
   "Shared": {
     "Footer": {
       "contactTitle": "Contacto",
-      "email": "info@example.com",
-      "address": "8502 Preston Rd. Inglewood +0 123-456-7890",
+      "email": "glowingskinbb@gmail.com",
+      "address": "1000 West Ave, Miami, FL 33139 +1 (954) 225-7085",
       "hoursTitle": "Horarios",
       "hours": {
-        "workingDays": "Días laborables: 9AM - 9PM",
-        "saturday": "Sábado: 10AM - 8PM",
+        "workingDays": "Días laborables: 9AM - 6PM",
+        "saturday": "Sábado: 10:30AM - 2:30PM",
         "sunday": "Domingo: Cerrado"
       },
       "copyright": {
