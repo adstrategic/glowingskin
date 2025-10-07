@@ -1,5 +1,9 @@
 {
   "Homepage": {
+    "Metadata": {
+      "title": "Glowing Skin Beauty Bar - Tratamientos Estéticos y Cuidado de la Piel de Lujo en Miami",
+      "description": "Desde Depilación Láser hasta Microneedling con Exosomas y PRP, ¡experimenta lo mejor en rejuvenecimiento no invasivo en el sur de Florida!"
+    },
     "Hero": {
       "title": "Tratamientos Estéticos y Cuidado de la Piel de Lujo en Miami",
       "paragraph": "Servicios avanzados certificados: desde Depilación Láser hasta Microneedling con Exosomas y PRP, vive lo mejor del rejuvenecimiento no invasivo en el sur de Florida.",
@@ -148,6 +152,10 @@
     }
   },
   "AboutPage": {
+    "Metadata": {
+      "title": "Glowing Skin Beauty Bar - Nosotros",
+      "description": "Explora nuestra experiencia, historia y las razones por las que deberías elegirnos"
+    },
     "Hero": {
       "brand": "Glowing Skin Beauty Bar",
       "title": "Descubre Nuestra Historia",
@@ -218,6 +226,10 @@
     }
   },
   "ServicesPage": {
+    "Metadata": {
+      "title": "Glowing Skin Beauty Bar - Servicios",
+      "description": "Descubre nuestra gama completa de servicios estéticos avanzados, incluyendo precios detallados, un portafolio inspirador de nuestro trabajo y tratamientos exclusivos a tu medida."
+    },
     "Hero": {
       "title": "Servicios, Portafolio y Precios que ofrecemos en el sur de Florida",
       "description": "Descubre nuestra gama completa de servicios estéticos avanzados, con precios detallados, un portafolio inspirador de nuestro trabajo y tratamientos exclusivos a tu medida. ¡Explora nuestro catálogo y conoce cómo podemos ayudarte a lograr tus metas de belleza con experiencia y cuidado!",

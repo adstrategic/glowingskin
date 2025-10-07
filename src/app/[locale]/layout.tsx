@@ -28,7 +28,6 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  robots: "noindex, nofollow",
   icons: {
     icon: glwf.src, // 🔸 Este sigue siendo el favicon del navegador
   },

@@ -1,5 +1,9 @@
 {
   "Homepage": {
+    "Metadata": {
+      "title": "Glowing Skin Beauty Bar - Luxury Skincare & Aesthetic Treatments in Miami",
+      "description": "From Laser Hair Removal to Microneedling with Exosomes & PRP, experience the best in non-invasive skin rejuvenation in South Florida!"
+    },
     "Hero": {
       "title": "Luxury Skincare & Aesthetic Treatments in Miami",
       "paragraph": "Licensed & Certified advanced aesthetic services: from Laser Hair Removal to Microneedling with Exosomes & PRP, experience the best in non-invasive skin rejuvenation in South Florida.",
@@ -148,6 +152,10 @@
     }
   },
   "AboutPage": {
+    "Metadata": {
+      "title": "Glowing Skin Beauty Bar - About Us",
+      "description": "Explore our experience, story and the reasons why you should choose us"
+    },
     "Hero": {
       "brand": "Glowing Skin Beauty Bar",
       "title": "Discover Our Story",
@@ -218,6 +226,10 @@
     }
   },
   "ServicesPage": {
+    "Metadata": {
+      "title": "Glowing Skin Beauty Bar - Services",
+      "description": "Discover the full range of advanced aesthetic services we offer, including detailed pricing, an inspiring portfolio of our work, and exclusive treatments tailored to your needs."
+    },
     "Hero": {
       "title": "Services, Portfolio & Pricing we offer on South Florida ",
       "description": "Discover the full range of advanced aesthetic services we offer, including detailed pricing, an inspiring portfolio of our work, and exclusive treatments tailored to your needs. Explore our comprehensive catalog and see how we can help you achieve your beauty goals with expertise and care!",

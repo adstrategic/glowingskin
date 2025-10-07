@@ -9,7 +9,23 @@ import Pricing from "@/components/pages/home/pricing";
 import Testimonial from "@/components/pages/home/testimonial";
 import WhyChooseUs from "@/components/pages/home/why-chose-us";
 import { routing } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+import { Locale, useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Homepage.Metadata" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

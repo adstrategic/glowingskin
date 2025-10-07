@@ -5,9 +5,33 @@ import Portfolio from "@/components/pages/home/portfolio";
 import Pricing from "@/components/pages/home/pricing";
 import WhyChooseUs from "@/components/pages/home/why-chose-us";
 import ServicesHero from "@/components/pages/services/hero";
-import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+import { Locale, useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 
-export default function Home() {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "ServicesPage.Metadata",
+  });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default function Services() {
   const t = useTranslations("ServicesPage.Hero");
 
   return (
